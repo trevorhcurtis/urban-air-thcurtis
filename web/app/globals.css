@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "./tokens.generated.css";
+
+/*
+ * Single light theme. Colors, type, radii, shadows, and control heights come from
+ * design-system/tokens through tokens.generated.css. Do not add raw color values here.
+ */
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-surface-canvas);
+  color: var(--color-text-primary);
+  font-family: var(--font-ui);
+}
+
+/* Focus uses the focus token (#0066CC, 5.6:1 on white). The old #7FBCFF tint fell below 3:1. */
+:focus-visible {
+  outline: 3px solid var(--color-border-focus);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Next.js build output
+web/.next/
+web/out/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+api/config/local.php
+
+# Logs and caches
+*.log
+api/storage/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
+api/vendor/
+api/.phpunit.cache/
+api/.phpunit.result.cache
+
+# Playwright output
+web/test-results/
+web/playwright-report/
+
+# Storybook build output
+web/storybook-static/
+
+# Dev script
+dev.sh

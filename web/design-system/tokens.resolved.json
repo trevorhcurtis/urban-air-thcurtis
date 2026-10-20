@@ -1,0 +1,256 @@
+{
+  "colors": [
+    {
+      "name": "text-primary",
+      "group": "text",
+      "token": "color.text.primary",
+      "value": "#0B2D6B"
+    },
+    {
+      "name": "text-secondary",
+      "group": "text",
+      "token": "color.text.secondary",
+      "value": "#475569"
+    },
+    {
+      "name": "text-muted",
+      "group": "text",
+      "token": "color.text.muted",
+      "value": "#475569"
+    },
+    {
+      "name": "text-link",
+      "group": "text",
+      "token": "color.text.link",
+      "value": "#0066CC"
+    },
+    {
+      "name": "text-link-pressed",
+      "group": "text",
+      "token": "color.text.link-pressed",
+      "value": "#0056B3"
+    },
+    {
+      "name": "text-inverse",
+      "group": "text",
+      "token": "color.text.inverse",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "text-on-accent",
+      "group": "text",
+      "token": "color.text.onAccent",
+      "value": "#0B2D6B"
+    },
+    {
+      "name": "text-accent",
+      "group": "text",
+      "token": "color.text.accent",
+      "value": "#007A5E"
+    },
+    {
+      "name": "text-success",
+      "group": "text",
+      "token": "color.text.success",
+      "value": "#166534"
+    },
+    {
+      "name": "text-warning",
+      "group": "text",
+      "token": "color.text.warning",
+      "value": "#92400E"
+    },
+    {
+      "name": "text-error",
+      "group": "text",
+      "token": "color.text.error",
+      "value": "#B91C1C"
+    },
+    {
+      "name": "text-info",
+      "group": "text",
+      "token": "color.text.info",
+      "value": "#1E40AF"
+    },
+    {
+      "name": "surface-canvas",
+      "group": "surface",
+      "token": "color.surface.canvas",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "surface-subtle",
+      "group": "surface",
+      "token": "color.surface.subtle",
+      "value": "#F9FAFB"
+    },
+    {
+      "name": "surface-muted",
+      "group": "surface",
+      "token": "color.surface.muted",
+      "value": "#F1F5F9"
+    },
+    {
+      "name": "surface-brand",
+      "group": "surface",
+      "token": "color.surface.brand",
+      "value": "#E6F4FF"
+    },
+    {
+      "name": "surface-brand-hover",
+      "group": "surface",
+      "token": "color.surface.brand-hover",
+      "value": "#D3E9FF"
+    },
+    {
+      "name": "surface-brand-pressed",
+      "group": "surface",
+      "token": "color.surface.brand-pressed",
+      "value": "#BFDDFA"
+    },
+    {
+      "name": "surface-inverse",
+      "group": "surface",
+      "token": "color.surface.inverse",
+      "value": "#0B2D6B"
+    },
+    {
+      "name": "surface-accent",
+      "group": "surface",
+      "token": "color.surface.accent",
+      "value": "#00C896"
+    },
+    {
+      "name": "surface-interactive",
+      "group": "surface",
+      "token": "color.surface.interactive",
+      "value": "#0066CC"
+    },
+    {
+      "name": "surface-interactive-hover",
+      "group": "surface",
+      "token": "color.surface.interactive-hover",
+      "value": "#0056B3"
+    },
+    {
+      "name": "surface-interactive-pressed",
+      "group": "surface",
+      "token": "color.surface.interactive-pressed",
+      "value": "#004A99"
+    },
+    {
+      "name": "surface-destructive",
+      "group": "surface",
+      "token": "color.surface.destructive",
+      "value": "#B91C1C"
+    },
+    {
+      "name": "surface-destructive-hover",
+      "group": "surface",
+      "token": "color.surface.destructive-hover",
+      "value": "#991B1B"
+    },
+    {
+      "name": "surface-destructive-pressed",
+      "group": "surface",
+      "token": "color.surface.destructive-pressed",
+      "value": "#7F1D1D"
+    },
+    {
+      "name": "surface-success",
+      "group": "surface",
+      "token": "color.surface.success",
+      "value": "#DCFCE7"
+    },
+    {
+      "name": "surface-warning",
+      "group": "surface",
+      "token": "color.surface.warning",
+      "value": "#FEF3C7"
+    },
+    {
+      "name": "surface-error",
+      "group": "surface",
+      "token": "color.surface.error",
+      "value": "#FEE2E2"
+    },
+    {
+      "name": "surface-info",
+      "group": "surface",
+      "token": "color.surface.info",
+      "value": "#DBEAFE"
+    },
+    {
+      "name": "solid-success",
+      "group": "solid",
+      "token": "color.solid.success",
+      "value": "#15803D"
+    },
+    {
+      "name": "solid-warning",
+      "group": "solid",
+      "token": "color.solid.warning",
+      "value": "#B45309"
+    },
+    {
+      "name": "solid-error",
+      "group": "solid",
+      "token": "color.solid.error",
+      "value": "#B91C1C"
+    },
+    {
+      "name": "solid-info",
+      "group": "solid",
+      "token": "color.solid.info",
+      "value": "#1D4ED8"
+    },
+    {
+      "name": "border-default",
+      "group": "border",
+      "token": "color.border.default",
+      "value": "#64748B"
+    },
+    {
+      "name": "border-subtle",
+      "group": "border",
+      "token": "color.border.subtle",
+      "value": "#CBD5E1"
+    },
+    {
+      "name": "border-focus",
+      "group": "border",
+      "token": "color.border.focus",
+      "value": "#0066CC"
+    },
+    {
+      "name": "border-brand",
+      "group": "border",
+      "token": "color.border.brand",
+      "value": "#0B2D6B"
+    },
+    {
+      "name": "border-interactive",
+      "group": "border",
+      "token": "color.border.interactive",
+      "value": "#0066CC"
+    },
+    {
+      "name": "decorative-blue-bright",
+      "group": "decorative",
+      "token": "color.decorative.blue-bright",
+      "value": "#007BFF"
+    },
+    {
+      "name": "decorative-green",
+      "group": "decorative",
+      "token": "color.decorative.green",
+      "value": "#00C896"
+    },
+    {
+      "name": "decorative-navy",
+      "group": "decorative",
+      "token": "color.decorative.navy",
+      "value": "#0B2D6B"
+    }
+  ]
+}

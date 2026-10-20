@@ -1,0 +1,36 @@
+{
+  "name": "Button",
+  "source": "components/ui/Button.tsx",
+  "props": {
+    "variant": {
+      "values": [
+        "primary",
+        "secondary",
+        "soft",
+        "ghost",
+        "destructive"
+      ],
+      "default": "primary"
+    },
+    "size": {
+      "values": [
+        "sm",
+        "md",
+        "lg",
+        "xl"
+      ],
+      "default": "md"
+    }
+  },
+  "states": [
+    "default",
+    "hover",
+    "pressed",
+    "focus-visible",
+    "disabled",
+    "loading"
+  ],
+  "keyboard": "Native button. Enter and Space activate it.",
+  "touch": "Native button. A tap activates it.",
+  "notes": "Pressed uses active: classes, one step darker than hover. Ghost pressed text uses text.link-pressed. Focus comes from the global focus-visible outline. Loading keeps the label and sets aria-busy."
+}

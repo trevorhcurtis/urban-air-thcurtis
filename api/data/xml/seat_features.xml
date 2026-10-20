@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Seat feature matrix. Codes are referenced by aircraft_layouts.xml and by seat rows. -->
+<seatFeatures xmlns="urn:urbanair:seat-features:1">
+  <feature code="WINDOW" label="Window" description="Seat next to the fuselage wall with a view." />
+  <feature code="AISLE" label="Aisle" description="Quick access to the aisle." />
+  <feature code="EXIT_ROW" label="Exit row" description="Extra space at an emergency exit. Passengers must be able to assist in an emergency." />
+  <feature code="EXTRA_LEGROOM" label="Extra legroom" description="Additional legroom beyond standard seating." />
+  <feature code="POWER" label="Power outlet" description="In-seat power for personal devices." />
+  <feature code="NO_RECLINE" label="No recline" description="This seat does not recline, usually because it sits at an exit row or a bulkhead." />
+  <feature code="BULKHEAD" label="Bulkhead" description="Seat directly behind a cabin wall. No seat in front of you." />
+</seatFeatures>

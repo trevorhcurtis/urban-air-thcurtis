@@ -1,0 +1,33 @@
+{
+  "name": "Heading",
+  "source": "components/ui/Heading.tsx",
+  "props": {
+    "level": {
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "size": {
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "brand": {
+      "values": [
+        "false",
+        "true"
+      ],
+      "default": "false"
+    }
+  },
+  "states": [
+    "default"
+  ],
+  "notes": "brand=true is allowed only at level 1 or 2 (throws otherwise). Sora is for brand headlines only."
+}

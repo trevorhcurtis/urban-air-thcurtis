@@ -1,0 +1,19 @@
+{
+  "name": "Icon",
+  "source": "components/ui/Icon.tsx",
+  "props": {
+    "size": {
+      "values": [
+        "sm",
+        "md",
+        "lg",
+        "xl"
+      ],
+      "default": "md"
+    }
+  },
+  "states": [
+    "default"
+  ],
+  "notes": "Decorative unless a label is given."
+}

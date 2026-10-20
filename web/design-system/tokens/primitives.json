@@ -1,0 +1,62 @@
+{
+  "color": {
+    "navy": {
+      "900": { "$value": "#0B2D6B", "$description": "UA Navy. Primary brand and text." },
+      "800": { "$value": "#082258" },
+      "500": { "$value": "#3A5A94" },
+      "200": { "$value": "#9FB3D6", "$description": "Decorative tint only. Not for control boundaries." }
+    },
+    "blue": {
+      "800": { "$value": "#004A99", "$description": "Interactive pressed." },
+      "700": { "$value": "#0056B3", "$description": "Interactive hover." },
+      "600": { "$value": "#0066CC", "$description": "Accessible interactive blue." },
+      "300": { "$value": "#7FBCFF", "$description": "Legacy focus tint. Not used for focus." },
+      "bright": { "$value": "#007BFF", "$description": "Decorative bright blue. Never for text." }
+    },
+    "mist": {
+      "500": { "$value": "#E6F4FF", "$description": "Sky Mist. Brand surface." },
+      "400": { "$value": "#D3E9FF", "$description": "Sky Mist hover." },
+      "300": { "$value": "#BFDDFA", "$description": "Sky Mist pressed." }
+    },
+    "green": {
+      "700": { "$value": "#007A5E", "$description": "Green text. Validated on canvas only." },
+      "600": { "$value": "#00A57B" },
+      "500": { "$value": "#00C896", "$description": "Flight Green. Accent surface." },
+      "200": { "$value": "#99ECD7" }
+    },
+    "neutral": {
+      "0": { "$value": "#FFFFFF" },
+      "50": { "$value": "#F9FAFB" },
+      "100": { "$value": "#F1F5F9" },
+      "200": { "$value": "#CBD5E1", "$description": "Decorative dividers only (1.48:1 on white)." },
+      "500": { "$value": "#64748B", "$description": "Control boundaries (4.76:1 on white)." },
+      "600": { "$value": "#475569" },
+      "700": { "$value": "#334155" },
+      "900": { "$value": "#0F172A" }
+    },
+    "status": {
+      "success": {
+        "text": { "$value": "#166534" },
+        "surface": { "$value": "#DCFCE7" },
+        "solid": { "$value": "#15803D" }
+      },
+      "warning": {
+        "text": { "$value": "#92400E" },
+        "surface": { "$value": "#FEF3C7" },
+        "solid": { "$value": "#B45309" }
+      },
+      "error": {
+        "text": { "$value": "#B91C1C" },
+        "surface": { "$value": "#FEE2E2" },
+        "solid": { "$value": "#B91C1C" },
+        "solidHover": { "$value": "#991B1B" },
+        "solidPressed": { "$value": "#7F1D1D" }
+      },
+      "info": {
+        "text": { "$value": "#1E40AF" },
+        "surface": { "$value": "#DBEAFE" },
+        "solid": { "$value": "#1D4ED8" }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Drawer",
+  "source": "components/ui/Drawer.tsx",
+  "props": {
+    "side": {
+      "values": [
+        "right",
+        "left"
+      ],
+      "default": "right"
+    }
+  },
+  "states": [
+    "closed",
+    "open"
+  ],
+  "keyboard": "Focus moves in on open and returns on close. Esc closes. Tab wraps inside the drawer.",
+  "touch": "A tap on the backdrop closes. The Close button is at least 44px.",
+  "notes": "Shares the Dialog core with Modal. Renders into document.body."
+}

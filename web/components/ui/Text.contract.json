@@ -1,0 +1,19 @@
+{
+  "name": "Text",
+  "source": "components/ui/Text.tsx",
+  "props": {
+    "role": {
+      "values": [
+        "lead",
+        "body",
+        "label",
+        "helper",
+        "meta"
+      ],
+      "default": "body"
+    }
+  },
+  "states": [
+    "default"
+  ]
+}

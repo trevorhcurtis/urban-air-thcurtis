@@ -1,0 +1,24 @@
+{
+  "name": "Divider",
+  "source": "components/ui/Divider.tsx",
+  "props": {
+    "orientation": {
+      "values": [
+        "horizontal",
+        "vertical"
+      ],
+      "default": "horizontal"
+    },
+    "weight": {
+      "values": [
+        "subtle",
+        "strong"
+      ],
+      "default": "subtle"
+    }
+  },
+  "states": [
+    "default"
+  ],
+  "notes": "Decorative separators use role=separator with aria-orientation."
+}

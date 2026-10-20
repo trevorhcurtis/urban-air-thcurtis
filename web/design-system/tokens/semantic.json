@@ -1,0 +1,56 @@
+{
+  "color": {
+    "text": {
+      "primary": { "$value": "{color.navy.900}" },
+      "secondary": { "$value": "{color.neutral.600}" },
+      "muted": { "$value": "{color.neutral.600}", "$description": "Metadata and helper text." },
+      "link": { "$value": "{color.blue.600}" },
+      "link-pressed": { "$value": "{color.blue.700}", "$description": "Ghost button pressed. Darker than text.link so it passes on surface.brand-hover." },
+      "inverse": { "$value": "{color.neutral.0}", "$description": "Text on dark or solid surfaces." },
+      "onAccent": { "$value": "{color.navy.900}", "$description": "Text on Flight Green." },
+      "accent": { "$value": "{color.green.700}", "$description": "Green text. Canvas only." },
+      "success": { "$value": "{color.status.success.text}" },
+      "warning": { "$value": "{color.status.warning.text}" },
+      "error": { "$value": "{color.status.error.text}" },
+      "info": { "$value": "{color.status.info.text}" }
+    },
+    "surface": {
+      "canvas": { "$value": "{color.neutral.0}" },
+      "subtle": { "$value": "{color.neutral.50}" },
+      "muted": { "$value": "{color.neutral.100}" },
+      "brand": { "$value": "{color.mist.500}" },
+      "brand-hover": { "$value": "{color.mist.400}" },
+      "brand-pressed": { "$value": "{color.mist.300}" },
+      "inverse": { "$value": "{color.navy.900}" },
+      "accent": { "$value": "{color.green.500}" },
+      "interactive": { "$value": "{color.blue.600}" },
+      "interactive-hover": { "$value": "{color.blue.700}" },
+      "interactive-pressed": { "$value": "{color.blue.800}" },
+      "destructive": { "$value": "{color.status.error.solid}" },
+      "destructive-hover": { "$value": "{color.status.error.solidHover}" },
+      "destructive-pressed": { "$value": "{color.status.error.solidPressed}" },
+      "success": { "$value": "{color.status.success.surface}" },
+      "warning": { "$value": "{color.status.warning.surface}" },
+      "error": { "$value": "{color.status.error.surface}" },
+      "info": { "$value": "{color.status.info.surface}" }
+    },
+    "solid": {
+      "success": { "$value": "{color.status.success.solid}" },
+      "warning": { "$value": "{color.status.warning.solid}" },
+      "error": { "$value": "{color.status.error.solid}" },
+      "info": { "$value": "{color.status.info.solid}" }
+    },
+    "border": {
+      "default": { "$value": "{color.neutral.500}", "$description": "Control boundaries. 3:1 minimum." },
+      "subtle": { "$value": "{color.neutral.200}", "$description": "Decorative dividers and card edges only." },
+      "focus": { "$value": "{color.blue.600}", "$description": "Focus indicator." },
+      "brand": { "$value": "{color.navy.900}" },
+      "interactive": { "$value": "{color.blue.600}", "$description": "Selected state." }
+    },
+    "decorative": {
+      "blue-bright": { "$value": "{color.blue.bright}" },
+      "green": { "$value": "{color.green.500}" },
+      "navy": { "$value": "{color.navy.900}" }
+    }
+  }
+}

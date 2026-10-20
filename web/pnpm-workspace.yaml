@@ -1,0 +1,9 @@
+nodeLinker: hoisted
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
+minimumReleaseAgeExclude:
+  # Published 2026-10-15 20:44 and 20:46 UTC. Clears the one-day release-age window at
+  # 2026-10-16 20:44 UTC. Remove these two entries after that. The lockfile pins them either way.
+  - '@next/eslint-plugin-next@16.4.2'
+  - eslint-config-next@16.4.2

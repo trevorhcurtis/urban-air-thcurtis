@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://urbanair.example/schema/tokens.schema.json",
+  "title": "Urban Air design tokens",
+  "description": "A token file is a tree. Groups are objects whose keys do not start with $. Leaves hold a $value. Reference resolution and cycle checks run in resolve.mjs, because JSON Schema cannot follow references.",
+  "type": "object",
+  "additionalProperties": { "$ref": "#/$defs/node" },
+  "$defs": {
+    "node": {
+      "oneOf": [
+        { "$ref": "#/$defs/leaf" },
+        { "$ref": "#/$defs/group" }
+      ]
+    },
+    "leaf": {
+      "type": "object",
+      "required": ["$value"],
+      "properties": {
+        "$value": { "type": ["string", "number"] },
+        "$description": { "type": "string" },
+        "$lineHeight": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[^$]" },
+      "additionalProperties": { "$ref": "#/$defs/node" }
+    }
+  }
+}

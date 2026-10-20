@@ -1,0 +1,13 @@
+{
+  "name": "Toggle",
+  "source": "components/ui/Toggle.tsx",
+  "props": {},
+  "states": [
+    "off",
+    "on",
+    "focus-visible",
+    "disabled"
+  ],
+  "keyboard": "Native button with role=switch. Space and Enter toggle.",
+  "touch": "Tap toggles. Target is at least 44px."
+}

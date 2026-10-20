@@ -1,0 +1,19 @@
+{
+  "name": "Avatar",
+  "source": "components/ui/Avatar.tsx",
+  "props": {
+    "size": {
+      "values": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "default": "md"
+    }
+  },
+  "states": [
+    "initials",
+    "image"
+  ],
+  "notes": "Initials when no src is given. The name is the accessible label in both modes."
+}

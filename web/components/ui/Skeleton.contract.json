@@ -1,0 +1,19 @@
+{
+  "name": "Skeleton",
+  "source": "components/ui/Skeleton.tsx",
+  "props": {
+    "variant": {
+      "values": [
+        "text",
+        "card",
+        "image",
+        "row"
+      ],
+      "default": "text"
+    }
+  },
+  "states": [
+    "default"
+  ],
+  "notes": "Hidden from assistive technology. Pulses only under motion-safe."
+}

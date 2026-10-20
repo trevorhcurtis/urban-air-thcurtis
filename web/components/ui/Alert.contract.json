@@ -1,0 +1,19 @@
+{
+  "name": "Alert",
+  "source": "components/ui/Alert.tsx",
+  "props": {
+    "tone": {
+      "values": [
+        "info",
+        "success",
+        "warning",
+        "error"
+      ],
+      "default": "info"
+    }
+  },
+  "states": [
+    "default"
+  ],
+  "notes": "Error tone uses role=alert. Other tones use role=status."
+}

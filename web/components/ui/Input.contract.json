@@ -1,0 +1,14 @@
+{
+  "name": "Input",
+  "source": "components/ui/Input.tsx",
+  "props": {},
+  "states": [
+    "default",
+    "hover",
+    "focus-visible",
+    "error",
+    "required"
+  ],
+  "keyboard": "Native fields. Tab moves focus.",
+  "notes": "Hover sets border.interactive on non-error fields. Focus comes from the global focus-visible outline. Error sets solid error border and shows the error text. Required adds an asterisk marker. Disabled and filled are not styled in Input.tsx: disabled relies on the native attribute and has no visual state of its own, and filled is a value, not a style."
+}

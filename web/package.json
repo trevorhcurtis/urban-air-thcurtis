@@ -1,0 +1,47 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.24.0",
+  "scripts": {
+    "dev": "pnpm run tokens && next dev",
+    "build": "pnpm run tokens && next build --webpack",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "pnpm run tokens && vitest run",
+    "tokens": "node design-system/build-tokens.mjs",
+    "figma": "node design-system/figma/sync.ts",
+    "check": "pnpm run tokens && pnpm run lint && tsc --noEmit && vitest run",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "visual:stories": "pnpm run build-storybook && playwright test -c playwright.stories.config.ts",
+    "visual:update": "pnpm run visual:stories -- --update-snapshots && pnpm run build && playwright test e2e/visual.spec.ts --update-snapshots"
+  },
+  "dependencies": {
+    "@swc/helpers": "0.5.23",
+    "ajv": "^8.20.0",
+    "next": "16.4.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@storybook/nextjs-vite": "^10.6.2",
+    "@tailwindcss/postcss": "4.3.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.4.2",
+    "jsdom": "^30.1.3",
+    "storybook": "^10.6.2",
+    "typescript": "^5",
+    "vitest": "^4.1.12"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Toast",
+  "source": "components/ui/Toast.tsx",
+  "props": {
+    "tone": {
+      "values": [
+        "info",
+        "success",
+        "warning",
+        "error"
+      ],
+      "default": "info"
+    }
+  },
+  "states": [
+    "visible",
+    "dismissed"
+  ],
+  "keyboard": "Dismiss button is focusable.",
+  "touch": "Dismiss button is at least 44px.",
+  "notes": "Optional auto-dismiss after autoDismissMs. The dismiss button stays available."
+}

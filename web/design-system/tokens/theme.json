@@ -1,0 +1,145 @@
+{
+  "font": {
+    "brand": {
+      "$value": "var(--font-sora), ui-sans-serif, system-ui, sans-serif",
+      "$description": "Sora 800. Brand headlines only."
+    },
+    "ui": {
+      "$value": "var(--font-inter), ui-sans-serif, system-ui, sans-serif",
+      "$description": "Inter. All UI text. The default body font."
+    }
+  },
+  "fontSize": {
+    "xs": {
+      "$value": "0.75rem",
+      "$lineHeight": "1rem",
+      "$description": "12 / 16. Dense metadata."
+    },
+    "sm": {
+      "$value": "0.875rem",
+      "$lineHeight": "1.25rem",
+      "$description": "14 / 20. Labels, helper text."
+    },
+    "md": {
+      "$value": "1rem",
+      "$lineHeight": "1.5rem",
+      "$description": "16 / 24. Body and controls."
+    },
+    "lg": {
+      "$value": "1.125rem",
+      "$lineHeight": "1.75rem",
+      "$description": "18 / 28. Lead copy."
+    },
+    "h4": {
+      "$value": "1.25rem",
+      "$lineHeight": "1.75rem",
+      "$description": "20 / 28. Card headings."
+    },
+    "h3": {
+      "$value": "1.5rem",
+      "$lineHeight": "2rem",
+      "$description": "24 / 32. Subsection headings."
+    },
+    "h2": {
+      "$value": "2rem",
+      "$lineHeight": "2.5rem",
+      "$description": "32 / 40. Section headings."
+    },
+    "h1": {
+      "$value": "3rem",
+      "$lineHeight": "3.3125rem",
+      "$description": "48 / 53. Hero. Sora on brand pages, Inter on booking pages."
+    },
+    "display": {
+      "$value": "3.5rem",
+      "$lineHeight": "3.875rem",
+      "$description": "56 / 62. Campaign display. Sora."
+    },
+    "h1-mobile": {
+      "$value": "2.5rem",
+      "$lineHeight": "2.75rem",
+      "$description": "40 / 44. Phone size for level 1 headings. Desktop uses h1 (48 / 53)."
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": "4px"
+    },
+    "md": {
+      "$value": "8px",
+      "$description": "Buttons, inputs."
+    },
+    "lg": {
+      "$value": "12px",
+      "$description": "Cards, dropdowns."
+    },
+    "xl": {
+      "$value": "16px",
+      "$description": "Feature panels."
+    },
+    "2xl": {
+      "$value": "24px",
+      "$description": "Promotional surfaces."
+    },
+    "full": {
+      "$value": "9999px",
+      "$description": "Pills, avatars."
+    }
+  },
+  "control": {
+    "sm": {
+      "$value": "2.25rem",
+      "$description": "36px. Compact controls."
+    },
+    "md": {
+      "$value": "2.75rem",
+      "$description": "44px. Standard buttons."
+    },
+    "lg": {
+      "$value": "3rem",
+      "$description": "48px. Inputs, selects."
+    },
+    "xl": {
+      "$value": "3.25rem",
+      "$description": "52px. Prominent search actions."
+    }
+  },
+  "shadow": {
+    "card": {
+      "$value": "0 1px 3px rgb(11 45 107 / 8%)"
+    },
+    "popover": {
+      "$value": "0 8px 24px rgb(11 45 107 / 14%)"
+    },
+    "modal": {
+      "$value": "0 16px 48px rgb(11 45 107 / 20%)"
+    }
+  },
+  "duration": {
+    "fast": {
+      "$value": "100ms"
+    },
+    "standard": {
+      "$value": "150ms"
+    },
+    "slow": {
+      "$value": "300ms"
+    }
+  },
+  "aspect": {
+    "photo": {
+      "$value": "4 / 3",
+      "$description": "Photo and image frames."
+    }
+  },
+  "gridColumns": {
+    "label": {
+      "$value": "auto 1fr",
+      "$description": "Label and value pairs in stacked data lists."
+    },
+    "split": {
+      "$value": "1.2fr 1fr",
+      "$description": "Two-column layouts at the large breakpoint."
+    }
+  }
+}

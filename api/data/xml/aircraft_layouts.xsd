@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="urn:urbanair:aircraft-layouts:1"
+           targetNamespace="urn:urbanair:aircraft-layouts:1"
+           elementFormDefault="qualified">
+  <xs:element name="aircraftLayouts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="layout" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cabin" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="class" use="required">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="BUSINESS"/>
+                        <xs:enumeration value="PREMIUM"/>
+                        <xs:enumeration value="ECONOMY"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                  <xs:attribute name="firstRow" type="xs:positiveInteger" use="required"/>
+                  <xs:attribute name="lastRow" type="xs:positiveInteger" use="required"/>
+                  <xs:attribute name="pattern" use="required">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:pattern value="[A-Z_]+"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="exitRows" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="row" type="xs:positiveInteger" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="bulkheadRows" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="row" type="xs:positiveInteger" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="blockedRows" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="row" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
+                        <xs:attribute name="label" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="key" type="xs:string" use="required"/>
+            <xs:attribute name="typeCode" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

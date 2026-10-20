@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Seat layouts per aircraft type.
+  pattern: one character per seat column. "_" marks the aisle.
+  exit_rows and bulkhead_rows add features to every seat in those rows.
+  Prototype configurations are illustrative, not manufacturer seat maps.
+-->
+<aircraftLayouts xmlns="urn:urbanair:aircraft-layouts:1">
+  <layout key="757-200" typeCode="757-200">
+    <cabin class="BUSINESS" firstRow="1" lastRow="4" pattern="AB_CD" />
+    <cabin class="PREMIUM" firstRow="5" lastRow="8" pattern="AB_CD" />
+    <cabin class="ECONOMY" firstRow="9" lastRow="30" pattern="ABC_DEF" />
+    <exitRows>
+      <row>12</row>
+      <row>13</row>
+    </exitRows>
+    <bulkheadRows>
+      <row>1</row>
+      <row>9</row>
+    </bulkheadRows>
+    <blockedRows>
+      <row number="31" label="Galley and lavatory" />
+    </blockedRows>
+  </layout>
+
+  <layout key="A220-100" typeCode="A220-100">
+    <cabin class="BUSINESS" firstRow="1" lastRow="3" pattern="AB_CD" />
+    <cabin class="ECONOMY" firstRow="4" lastRow="21" pattern="AB_CDE" />
+    <exitRows>
+      <row>10</row>
+      <row>11</row>
+    </exitRows>
+    <bulkheadRows>
+      <row>4</row>
+    </bulkheadRows>
+    <blockedRows>
+      <row number="22" label="Galley and lavatory" />
+    </blockedRows>
+  </layout>
+
+  <layout key="A220-300" typeCode="A220-300">
+    <cabin class="BUSINESS" firstRow="1" lastRow="4" pattern="AB_CD" />
+    <cabin class="ECONOMY" firstRow="5" lastRow="27" pattern="AB_CDE" />
+    <exitRows>
+      <row>13</row>
+      <row>14</row>
+    </exitRows>
+    <bulkheadRows>
+      <row>5</row>
+    </bulkheadRows>
+    <blockedRows>
+      <row number="28" label="Galley and lavatory" />
+    </blockedRows>
+  </layout>
+
+  <layout key="PRAETOR-500" typeCode="PRAETOR-500">
+    <cabin class="BUSINESS" firstRow="1" lastRow="3" pattern="AB_CD" />
+    <exitRows>
+      <row>3</row>
+    </exitRows>
+    <bulkheadRows>
+      <row>1</row>
+    </bulkheadRows>
+  </layout>
+</aircraftLayouts>

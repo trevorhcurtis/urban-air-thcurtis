@@ -1,0 +1,9 @@
+{
+  "name": "Card",
+  "source": "components/ui/Card.tsx",
+  "props": {},
+  "states": [
+    "default"
+  ],
+  "notes": "Static surface for grouping content. No variant props and no interactive states. Uses surface.canvas, border.subtle (decorative, not a control edge), radius.lg, and shadow.card. Padding is p-5 (20px) on all sides."
+}
